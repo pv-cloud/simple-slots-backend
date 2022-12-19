@@ -6,7 +6,7 @@ const userRoutes = require('./routes/user')
 const scoreRoutes = require('./routes/score')
 
 const port = process.env.PORT || "4000";
-const connection_url = `mongodb+srv://admin:mongodb99@cluster0.g7wedbo.mongodb.net/?retryWrites=true&w=majority`;
+const connection_url = `mongodb+srv://admin:mongodb99@cluster0.niduatc.mongodb.net/?retryWrites=true&w=majority`;
 
 const app = express()
 
